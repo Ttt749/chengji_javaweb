@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <bean name="Course" class="main.snnu.entity.Course">
+        <properties name="c_id" attr="cId"></properties>
+        <properties name="c_name" attr="cName"></properties>
+        <properties name="c_attr" attr="cAttr"></properties>
+        <properties name="c_classroom" attr="cClassroom"></properties>
+    </bean>
+    <bean name="StuCou" class="main.snnu.entity.StuCou">
+        <properties name="s_id" attr="sId"></properties>
+        <properties name="c_id" attr="cId"></properties>
+        <properties name="s_c_score" attr="scScore"></properties>
+    </bean>
+    <bean name="Student" class="main.snnu.entity.Student">
+        <properties name="s_id" attr="sID"></properties>
+        <properties name="s_name" attr="sName"></properties>
+        <properties name="s_age" attr="sAge"></properties>
+        <properties name="s_sex" attr="sSex"></properties>
+        <properties name="S_class" attr="sClass"></properties>
+    </bean>
+    <bean name="TeaCou" class="main.snnu.entity.TeaCou">
+        <properties name="t_id" attr="tId"></properties>
+        <properties name="c_id" attr="cId"></properties>
+    </bean>
+    <bean name="User" class="main.snnu.entity.User">
+        <properties name="user_id" attr="userId"></properties>
+        <properties name="user_name" attr="userName"></properties>
+        <properties name="user_password" attr="userPassword"></properties>
+        <properties name="user_role" attr="userRole"></properties>
+    </bean>
+    <bean name="Teacher" class="main.snnu.entity.Teacher">
+        <properties name="t_id" attr="tId"></properties>
+        <properties name="t_name" attr="tName"></properties>
+        <properties name="t_age" attr="tAge"></properties>
+        <properties name="t_sex" attr="tSex"></properties>
+        <properties name="t_school" attr="tSchool"></properties>
+        <properties name="t_graduate" attr="tGraduate"></properties>
+        <properties name="t_text" attr="tText"></properties>
+    </bean>
+</note>

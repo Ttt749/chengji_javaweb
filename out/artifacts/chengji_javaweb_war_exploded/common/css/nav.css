@@ -1,0 +1,104 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: "Bauhaus 93";
+  height: 100%; }
+
+body {
+  width: 100%;
+  position: relative; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    color: red; }
+
+.top-nav {
+  background-color: rgba(26, 47, 60, 0.81);
+  width: 100%;
+  height: 55px;
+  color: white;
+  position: relative; }
+  .top-nav img {
+    float: left;
+    width: 9%;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer; }
+  .top-nav p {
+    float: left;
+    font-size: 25px;
+    width: 23%;
+    padding-left: 19px;
+    line-height: 55px; }
+    .top-nav p:hover {
+      cursor: pointer; }
+  .top-nav li {
+    margin-right: 2%;
+    position: absolute;
+    bottom: 17px;
+    right: 15px;
+    font-size: 18px;}
+
+.content {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 100%; }
+  .content .leval {
+    float: left;
+    width: 220px;
+    height: 100%;
+    background-color: rgba(26, 47, 60, 0.71);
+    margin: 0;
+    padding: 0; }
+    .content .leval li {
+      cursor: pointer;
+      color: white;
+      border-bottom: 1px solid rgba(190, 190, 190, 0.64); }
+      .content .leval li div {
+        height: 50px;
+        line-height: 50px;
+        padding-left: 44px;
+        position: relative; }
+        .content .leval li div:hover {
+          transition: all 0.8s;
+          background-color: rgba(255, 0, 0, 0.65); }
+    .content .leval img[alt="tubiao"] {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 19px;
+      left: 14px; }
+    .content .leval img[alt="angle"] {
+      right: 10px;
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 19px; }
+  .content .low-leval {
+    padding: 0; }
+    .content .low-leval li {
+      padding-left: 60px;
+      border-top: rgba(190, 190, 190, 0.64);
+      border-bottom-style: none;
+      height: 50px;
+      line-height: 50px;
+      background-color: #333333; }
+      .content .low-leval li:hover {
+        transition: all 0.8s;
+        background-color: rgba(255, 0, 0, 0.65); }
+  .content .current {
+    background-color: red; }
+  .content .main-content {
+    margin: 0 0 0 220px;
+    height: calc(100% - (5px)); }
